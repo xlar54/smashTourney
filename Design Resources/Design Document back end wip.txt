@@ -1,0 +1,27 @@
+Player Class
+    userID (internal to application) (primary key in database)
+    password
+    name
+    sessionWins
+    sessionLosses
+    allTimeWins
+    allTimeLosses
+    characterSelected (for now this should only be 1 at a time)
+
+Character Class
+    characterID (internal)
+    name
+    picture (thumbnail)
+    weight class 
+    fighting style
+
+DBConnector class (class that will wrap the database stuff)
+    isConnected (boolean)
+    connect async (username: string, password: string): promise (resolve, reject) =>
+    {
+        some logic to open our non existence database and sign in 
+        something about async await 
+    }
+    write 
+
+

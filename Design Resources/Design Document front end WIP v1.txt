@@ -1,0 +1,54 @@
+Front End:
+
+Home Page (View 1):
+1. Components
+	A. Sign in/sign up component (join as guest functionality should also be here)
+	B. Background component 
+
+Sign in (View 2):
+1. Components
+	A. User credentials form (for returning users)
+		- username
+	B. Background component 
+	
+
+Sign up (alternate View 2):
+1. Components
+	A. User credentials form (for new users)
+		- username (I retain the right to delete or change usernames that make me uncomfortable but no active filtering logic will be written into this application)
+		- "favorite" fighter
+	B. Background component
+	C. nav bar component (back and/or home depending on context)
+	
+Create or Join (View 3):
+1. Components 
+	A. createOrJoin component
+		- create button
+		- join button 
+	B. Background component
+	C. navbar component (back and/or home depending on context)
+
+Create Room (View 4):
+1. Components
+	A. newRoom component 
+		- session code
+		- ruleset dropdown (single/double)
+		- other ruleset options ???
+		- max players ?
+	B. Background component
+	C. nav bar component (back and/or home depending on the context)
+
+Join Room (alternate View 4):
+1. Components
+	A. joinRoom component 
+		- session code (initially visible)
+		- submit button 
+		- "waiting for other players" label (initially invisible becomes visible when matching room is found)
+	B. Background component
+	C. nav bar component (back and/or home depending on the context)
+
+
+
+
+
+				
